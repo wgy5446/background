@@ -1,0 +1,67 @@
+body{
+    height: 3000px;
+}
+.div{
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    border:2px dashed lightgray ;
+}
+.box{
+    background-image: 
+    url("https://heropy.blog/css/images/vendor_icons/css3.png"), 
+    url("https://heropy.blog/css/images/vendor_icons/html5.png"), 
+    url("https://heropy.blog/css/images/vendor_icons/javascript.png");
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    border: 2px dashed lightgray; 
+}
+.box1{
+    width: 550px;
+    height: 350px;
+    margin-top: 20px;
+    border: 2px dashed lightgray;
+    background-image: url("https://heropy.blog/css/images/vendor_icons/git.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+section{
+    height: 200px;
+}
+.section2{
+    background-image: url("https://www.istarbucks.co.kr/common/img/main/mob_fav_prod_bg_new.jpg");
+    background-position: right bottom;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+.section3{
+    background-image: url("https://www.istarbucks.co.kr/common/img/main/reserve_bg.jpg");
+    background-position: right bottom;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    border: 4px solid red;
+    margin-top: 20px;
+    overflow: auto;
+    background-image: url("https://heropy.blog/css/images/vendor_icons/npm.png");
+    background-size: 50%;
+    background-attachment: local;
+}
+.for-scroll{
+    height: 2000px;
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    margin-top: 50px ;
+    background-image: url("https://heropy.blog/css/images/vendor_icons/npm.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: lightpink;
+}
